@@ -1,0 +1,22 @@
+{
+  "name": "some-generic-node-project",
+  "version": "1.0.0",
+  "description": "NodeJS for dummies",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "node",
+    "nodejs"
+  ],
+  "author": "Roman Tarnakin",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "chalk": "^4.1.2"
+  }
+}
